@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+
+/* box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* default font-family */
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* improve text rendering */
+
+body {
+  background-image: url('');
+  -webkit-font-smoothing: antialiased;
+}
+
+/* remove image default */
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+}
+
+/* remove default */
+input,
+button,
+select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/*   default */
+
+.btn-outline {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #252525;
+  border: solid rgb(230, 211, 211) 1px;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.btn-normal {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #f2f2f2;
+  background-color: hsla(157, 71%, 41%, 0.8);
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3 ease;
+}
+.btn-nltr {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #f2f2f2;
+  background-color: hsla(157, 71%, 41%, 0.8);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3 ease;
+}
+
+.btn-outline:hover {
+  border-radius: 5px;
+  color: #f2f2f2;
+  background-color: hsl(143, 71%, 41%);
+  border: none;
+  outline: none;
+}
+
+.btn-normal:hover,
+.btn-nltr:hover {
+  border-radius: 5px;
+  background-color: hsl(143, 71%, 41%);
+}
+
+
+.brand,
+auth a:hover {
+  text-decoration: none;
+  border: none;
+  font-size: 43px;
+}
+
+.navbar-link:hover {
+  border: none;
+  text-decoration: none;
+  color: hsl(143, 71%, 41%);
+}
+
+/* remove list item marke */
+li {
+  list-style: none;
+}
+
+/* change link default */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.toast-err-msg{
+  font-weight: 700;
+}
+
+.toast-err-msg button i{
+  margin: 0 5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: red;
+  cursor: pointer;
+}
+
+
+.tour-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}

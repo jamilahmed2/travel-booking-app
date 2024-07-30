@@ -1,0 +1,125 @@
+.t-details-booking {
+    display: flex;
+    margin: 1rem;
+}
+
+.tour-details {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+
+
+.tour-details img {
+    border-radius: .5rem;
+    width: 50%;
+}
+
+
+.loc-rat {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+
+}
+
+.loc {
+    font-size: 14px;
+}
+
+.rat .star i {
+    color: #1eb37a;
+}
+
+.info {
+    font-size: 24px;
+    border-radius: .5rem;
+    /* background-color: red; */
+    padding: 5px;
+    margin: 5px;
+}
+
+.info h4 {
+    color: #1eb37a;
+
+}
+
+.info .price span {
+    font-size: 18px;
+    color: #088178;
+}
+
+.desc {
+    margin-top: 2rem;
+    padding: 0 5px;
+}
+
+.desc h5 {
+    color: #1eb37a;
+
+}
+
+.desc p {
+    font-size: 18px;
+}
+
+.distance-peoples {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.distance-peoples h4 {
+    color: #088178;
+}
+
+.distance-peoples h4 i {
+    font-size: 18px;
+    margin: 5px;
+    color: #1eb37a;
+}
+
+.reviews-form {
+    margin: 1rem;
+}
+
+.rev-rating {
+    color: black;
+    margin: 0 0 0 1rem;
+}
+
+.inputs input {
+    background: transparent;
+    padding: 1rem;
+    border: 2px solid #1eb37a;
+    border-right: 0;
+    border-radius: 2rem;
+}
+
+.reviews {
+    margin: 1rem;
+}
+
+.user-reviews {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: #1eb37a;
+    margin: 1rem;
+}
+
+.active-star{
+    color: #1eb37a
+}
+
+.rev-item{
+    margin: 5px 0;
+}
+
+.rev-item p{
+    color: black;
+}

@@ -1,0 +1,362 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "travel-booking-app",
+    "dateExported": "2023-12-06T21:18:46.286Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "d72b1187-84d6-4963-b681-d39e489b2571",
+            "name": "auth",
+            "containerId": "",
+            "created": "2023-12-06T21:17:10.220Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "bb39503d-d5a6-46bc-b9e6-4df296f710dc",
+            "name": "user",
+            "containerId": "",
+            "created": "2023-12-06T21:17:17.177Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "4f41340f-5433-4520-bff7-9b5debcd7757",
+            "name": "booking",
+            "containerId": "",
+            "created": "2023-12-06T21:17:22.513Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "tour",
+            "containerId": "",
+            "created": "2023-12-06T21:17:28.552Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "7f359f76-3f45-4fb6-94f9-6da082883468",
+            "name": "booking",
+            "containerId": "",
+            "created": "2023-12-06T21:18:17.941Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "e3de9280-e9a9-4c8c-84e1-7ce89f324de5",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "d72b1187-84d6-4963-b681-d39e489b2571",
+            "name": "signUp",
+            "url": "http://localhost:5000/auth/signUp",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-02T21:21:08.923Z",
+            "modified": "2023-12-06T21:03:13.483Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"photo\":\"///\",\n  \"name\":\"john\",\n  \"email\":\"john@gmail.com\",\n  \"password\":\"john12345\",\n  \"confirmPassword\":\"john12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bd7dde22-9580-40df-a3d0-516798677b15",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "bb39503d-d5a6-46bc-b9e6-4df296f710dc",
+            "name": "getUser",
+            "url": "http://localhost:5000/api/users/admin",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-03T21:06:52.528Z",
+            "modified": "2023-12-03T21:25:39.645Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "818a93ff-6f6f-4f34-8f67-b862fb333935",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "createTour",
+            "url": "http://localhost:5000/tours",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-05T19:07:02.565Z",
+            "modified": "2023-12-05T20:14:02.089Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"test 10\",\n  \"city\":\"hunza\",\n  \"address\":\"hunza nagar\",\n  \"distance\":10,\n  \"price\":50000,\n  \"maxGroupSize\":10,\n  \"desc\":\"old fort\",\n  \"reviews\":[],\n  \"photo\":\"/\",\n  \"featured\":true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4ae8fde8-2386-41ba-aa56-1fa67711f729",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "7f359f76-3f45-4fb6-94f9-6da082883468",
+            "name": "booking",
+            "url": "http://localhost:5000/booking/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-06T20:35:29.050Z",
+            "modified": "2023-12-06T20:40:08.450Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userEmail\":\"admin@gmail.com\",\n  \"tourName\":\"hunza altit fort\",\n  \"fullName\":\"user\",\n  \"guests\":5,\n  \"phone\":123456789,\n  \"bookAt\":\"2023-12-7\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "180fcd77-975b-4087-82e5-15e67087c2c0",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "d72b1187-84d6-4963-b681-d39e489b2571",
+            "name": "login",
+            "url": "http://localhost:5000/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-02T21:53:08.912Z",
+            "modified": "2023-12-06T21:14:55.630Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"admin@gmail.com\",\n  \"password\":\"admin12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4a584af9-79bd-4edf-b790-fd8bc302eb0f",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "updateTour",
+            "url": "http://localhost:5000/tours/656f76c80fc0be21cb9fe793",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-12-05T19:30:49.763Z",
+            "modified": "2023-12-05T19:54:13.846Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"altit fort \"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "afc51256-370d-4edb-8f07-0e1b6726658f",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "bb39503d-d5a6-46bc-b9e6-4df296f710dc",
+            "name": "getSingleUser",
+            "url": "http://localhost:5000/user/656f93a880fb132ebc17215e",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-05T21:02:59.621Z",
+            "modified": "2023-12-05T21:19:07.309Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6e49a708-40b3-4ff4-9138-4d2aefb7ed4f",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "7f359f76-3f45-4fb6-94f9-6da082883468",
+            "name": "getBooking",
+            "url": "http://localhost:5000/booking/6570dc66743308e51b523527",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-06T20:51:07.061Z",
+            "modified": "2023-12-06T20:51:16.206Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d10c57c6-75d6-4c47-9409-2c7085a0b631",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "deleteTour",
+            "url": "http://localhost:5000/tours/656f81470feed4e28a7bc80c",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-12-05T19:59:46.346Z",
+            "modified": "2023-12-05T20:00:21.558Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "45e58f39-7e74-4c27-8d55-15d2b54a6f81",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "bb39503d-d5a6-46bc-b9e6-4df296f710dc",
+            "name": "updateUser",
+            "url": "http://localhost:5000/user/656f74920fc0be21cb9fe78d",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-12-05T21:06:45.704Z",
+            "modified": "2023-12-05T21:07:42.410Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"admin\",\n  \"email\":\"admin@gmail.com\",\n  \"password\":\"admin123495\",\n  \"confirmPassword\":\"admin123495\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7d66754a-bdc7-45d9-a90a-8c15044ce903",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "7f359f76-3f45-4fb6-94f9-6da082883468",
+            "name": "getAllBooking",
+            "url": "http://localhost:5000/booking",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-06T20:51:52.007Z",
+            "modified": "2023-12-06T21:03:34.792Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bb893568-cf68-4840-89c9-63992c523622",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "getSingleTour",
+            "url": "http://localhost:5000/tours/656f76c80fc0be21cb9fe793",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-05T20:03:48.280Z",
+            "modified": "2023-12-05T20:04:17.795Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "96b4a690-d09d-428f-9420-07019fd858f2",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "bb39503d-d5a6-46bc-b9e6-4df296f710dc",
+            "name": "getAllUsers",
+            "url": "http://localhost:5000/user/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-05T21:19:17.885Z",
+            "modified": "2023-12-05T21:19:27.153Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "579d4593-09d4-49c5-81e0-813221181582",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "getAllTour",
+            "url": "http://localhost:5000/tours/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-12-05T20:06:43.653Z",
+            "modified": "2023-12-05T20:16:33.111Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "79e83f34-eff4-416e-a690-481a96daf3b0",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "bb39503d-d5a6-46bc-b9e6-4df296f710dc",
+            "name": "deleteUser",
+            "url": "http://localhost:5000/user/656f74920fc0be21cb9fe78d",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-12-05T21:19:39.476Z",
+            "modified": "2023-12-05T21:20:11.789Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "50033986-5669-49aa-9967-b7c568aaeb60",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "getAllTourBySearch",
+            "url": "http://localhost:5000/tours/search/getTourBySearch?city=hunza&distance=10&maxGroupSize=10",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-12-05T20:24:49.992Z",
+            "modified": "2023-12-05T20:35:57.858Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "city",
+                    "value": "hunza",
+                    "isPath": false
+                },
+                {
+                    "name": "distance",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "maxGroupSize",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ed877593-075c-43f2-9089-405e8a23d7e3",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "getFeaturedTour",
+            "url": "http://localhost:5000/tours/search/getFeaturedTours",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-12-05T20:39:19.753Z",
+            "modified": "2023-12-05T20:40:11.886Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59b1f593-9410-4949-a8e6-9b54ef502412",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "db1a37df-c0eb-4c39-ae0e-a85eb077fa07",
+            "name": "getToutCount",
+            "url": "http://localhost:5000/tours/search/getTourCount",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-12-05T20:45:34.372Z",
+            "modified": "2023-12-05T20:46:11.431Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e77d7a2e-11ad-4481-8109-a24249a8fc1a",
+            "colId": "a4491e10-a2f3-4370-a5c7-90d3c3766585",
+            "containerId": "",
+            "name": "createReview",
+            "url": "http://localhost:5000/review/656f846e3ed21f80523b2965",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-12-06T19:43:42.404Z",
+            "modified": "2023-12-06T20:08:12.829Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"user3\",\n  \"reviewText\":\"amazing place\",\n  \"rating\":4\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

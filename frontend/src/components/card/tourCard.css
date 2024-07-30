@@ -1,0 +1,106 @@
+.tour {
+    position: relative;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 9px;
+    border: 2px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+
+.title{
+    color: #000000;
+    font-weight: 500;
+}
+
+.tour img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.tour .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.loc-fea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+
+.rat-rev{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .tour .des .featured{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #F2F2F2;
+    background-color: #1eb37a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ .tour .des .location i{
+    font-size: 1rem;
+    color: #088178;
+}
+
+ .tour .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+ .tour .des h4 {
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #088178;
+}
+
+
+ .tour .des i {
+    font-size: 12px;
+    color: #1eb37a;
+}
+
+ .tour .price-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+ .tour .price-cart .cart{
+    font-size: 1.5rem;
+    color: #088178;
+    background-color: rgb(226, 230, 210);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tour:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.181);
+}
+
+ .tour .des .title:hover{
+    color: #1eb37a;
+
+}
+
+.featured .tour .price-cart .cart:hover{
+    font-size: 2rem;
+    color: #1eb37a;
+    background: transparent;
+    padding: 0;
+}

@@ -1,0 +1,18 @@
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.not-found h3{
+    font-size: 3rem;
+    color: #1eb37a;
+}
+
+.not-found h5{
+    font-size: 2rem;
+    color: #015c39;
+}
+

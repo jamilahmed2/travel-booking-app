@@ -1,0 +1,31 @@
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: hsla(157, 100%, 12%, 0.8);
+    color: #F2F2F2;
+}
+
+.newsletter-from {
+    display: flex;
+    width: 40%;
+}
+
+.newsletter input {
+    height: 3.1rem;
+    padding: 0 1.25em;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.newsletter p span {
+    color: rgba(0, 255, 157, 0.8)
+}

@@ -1,0 +1,18 @@
+.thank-you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.thank-you h3{
+    font-size: 3rem;
+    color: #1eb37a;
+}
+
+.thank-you h5{
+    font-size: 2rem;
+    color: #015c39;
+}
+

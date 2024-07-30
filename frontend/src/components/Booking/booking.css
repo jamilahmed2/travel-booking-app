@@ -1,0 +1,29 @@
+.booking{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.info-total{
+    font-size: 26px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info h5{
+    color: #1eb37a;
+}
+
+.info input{
+    background-color: #b8f5dd;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+

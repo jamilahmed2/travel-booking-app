@@ -1,0 +1,33 @@
+.about-us-header{
+    background-color: #0e573b;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+.about-us-header h2,
+.about-us-header p{
+    color: #fff;
+}
+
+
+.about-header{
+    /* background-image: url(''); */
+    background-color: #0e573b;
+}
+.about-head{
+    display: flex;
+    align-items: center;
+}
+.about-head img{
+    width: 50%;
+    height: auto;
+}
+.about-head div{
+    padding-left: 40px;
+}

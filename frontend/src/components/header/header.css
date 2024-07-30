@@ -1,0 +1,59 @@
+.brand,
+.fa-solid {
+    font-size: 40px;
+    color: #1eb37a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.nav li a {
+    margin: 5px;
+    color: black;
+}
+
+.h-avatar i {
+    color: #1eb37a;
+    font-size: 1rem;
+}
+
+.h-avatar i:hover {
+    color: #1eb37a;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.h-username {
+    font-weight: 700;
+    background-color: rgb(167, 222, 135);
+    border-radius: 5px;
+    padding: 5px;
+    margin: none;
+    color: black;
+}
+
+.h-username:hover {
+    color: #1eb37a;
+    font-size: 1.2rem;
+    border: solid #1eb37a 1px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.lged-user-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

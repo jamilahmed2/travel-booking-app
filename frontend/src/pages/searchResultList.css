@@ -1,0 +1,12 @@
+.searchResult-header {
+    background-color: #0e573b;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+    color: white;
+}

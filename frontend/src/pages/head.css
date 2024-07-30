@@ -1,0 +1,29 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://adventureplanners.net/wp-content/uploads/2020/12/Gilgit-Baltistan-1-scaled-e1673957443809.jpg');
+    height: 50vh;
+    background-position: bottom;
+    margin: 1rem 0;
+    text-shadow: 2px 2px  black;
+}
+
+
+.head .desc {
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.desc h2 {
+    font-weight: 900;
+    text-shadow: 2px 2px  black;
+    color: #1eb37a;
+}
+
+.desc p {
+    text-shadow: 2px 2px  black;
+    color: white;
+}
